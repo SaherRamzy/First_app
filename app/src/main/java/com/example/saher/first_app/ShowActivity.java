@@ -21,7 +21,7 @@ public class ShowActivity extends Activity {
         ArrayList<String> list = getIntent().getExtras().getStringArrayList("data");
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,list);
         lv_show.setAdapter(adapter);
-
+//
 
 
 

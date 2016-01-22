@@ -30,6 +30,7 @@ public class DataBaseManager extends SQLiteOpenHelper {
             db.execSQL(ss);
         } catch (Exception sd) {}
     }
+    //
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {

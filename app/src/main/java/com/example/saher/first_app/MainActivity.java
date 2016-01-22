@@ -93,6 +93,7 @@ public class MainActivity extends ActionBarActivity {
         builder.setMessage(message);
         builder.setCancelable(true);
         builder.show();
+        //
     }
 
     public void delete(View v) {

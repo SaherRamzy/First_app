@@ -4,5 +4,6 @@ public class Contact {
     public String first_name;
     public String second_name;
     public String mobile;
+    //
 
 }

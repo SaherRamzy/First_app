@@ -17,6 +17,7 @@ public class ContactAdaptor extends ArrayAdapter<Contact> {
         super(context,R.layout.row_contact, Alis);
         con=context;
         list=Alis;
+        //
     }
 
     @Override
